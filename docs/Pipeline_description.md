@@ -1,0 +1,13 @@
+## Steps of pipeline
+- Build:
+    - Install Node.js version 14.15
+    - Install Frontend dependencies
+    - Install Backend dependencies
+    - Lint the frontend
+    - Build the frontend app
+    - Build the backend API
+- Hold: requires manual approval to continue
+- Deploy:
+    - Set up EB
+    - Set up AWS CLI
+    - Deploy Backend API and Frontend
