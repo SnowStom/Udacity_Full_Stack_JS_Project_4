@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2024-05-27T07:31:00.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="FHAKtgqQuUhL4ZuTiDEk" version="24.4.8" type="device">
+  <diagram name="Page-1" id="QLjTFSbfA7ahIOkPD-GX">
+    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-21" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="20" y="440" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-22" value="Client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="520" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-23" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2_Xv1C-qevadN4vR1cbh-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="280" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-25" value="AWS Elastic Beanstalk" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.elastic_beanstalk;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="460" as="sourcePoint" />
+            <mxPoint x="520" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-27" value="Amazon RDS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.rds;" vertex="1" parent="1">
+          <mxGeometry x="740" y="440" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="460" as="sourcePoint" />
+            <mxPoint x="740" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.012;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2_Xv1C-qevadN4vR1cbh-27" target="2_Xv1C-qevadN4vR1cbh-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="470" as="sourcePoint" />
+            <mxPoint x="750" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2_Xv1C-qevadN4vR1cbh-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499" y="490.5" as="sourcePoint" />
+            <mxPoint x="360" y="489.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="480.5" as="sourcePoint" />
+            <mxPoint x="120" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-32" value="send request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="428" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-33" value="Frontend hosted on S3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="398" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-34" value="send api request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="428" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-35" value="query data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="428" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-36" value="BE hosted on EB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="410" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-37" value="PostgreSQL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="735" y="410" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-38" value="return data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="488" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-40" value="return response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="488" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_Xv1C-qevadN4vR1cbh-41" value="render UI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="480" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
